@@ -1,0 +1,7 @@
+/* Set a dark background for the entire app */
+body, html {
+  background-color: #121417 !important;  
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
