@@ -78,7 +78,11 @@ cd stock-market-simulator
 ## Preview
 Below is a gallery showcasing screenshots of the app:
 
-![Login](images/ScreenshotProject3-1.png)
-![Stock Details](path_to_screenshot_2)
-![Portfolio](path_to_screenshot_3)
-![Trading View](path_to_screenshot_4)
+| ![Login](images/ScreenshotProject3-1.png) | ![Home Page](images/ScreenshotProject3-2.png) | ![Search](images/ScreenshotProject3-3.png) |
+|-------------------------------------------|----------------------------------------------|--------------------------------------------|
+| **Login Page** | **Home Page** | **Search for stocks** |
+
+| ![Analyze](images/ScreenshotProject3-4.png) | ![Portfolio](images/ScreenshotProject3-5.png) | ![Logout](images/ScreenshotProject3-6.png) |
+|--------------------------------------------|---------------------------------------------|-------------------------------------------|
+| **Analyze & Buy** | **Portfolio** | **Logout / Delete Account** |
+
