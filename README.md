@@ -53,7 +53,7 @@ cd stock-market-simulator
    ```
 4. Start the backend server:
    ```sh
-   npm start
+   nodemon app.js
    ```
 
 ### Frontend Setup
