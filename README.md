@@ -78,7 +78,7 @@ cd stock-market-simulator
 ## Preview
 Below is a gallery showcasing screenshots of the app:
 
-![Dashboard](path_to_screenshot_1)
+![Login](images/ScreenshotProject3-1.png)
 ![Stock Details](path_to_screenshot_2)
 ![Portfolio](path_to_screenshot_3)
 ![Trading View](path_to_screenshot_4)
