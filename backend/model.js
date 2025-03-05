@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 
-// Transaction Schema (Now a separate collection)
+// Transaction Schema 
 const transactionSchema = new mongoose.Schema({
     userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
     symbol: { type: String, required: true },
     companyName: { type: String, required: true },
-    quantity: { type: Number, required: true }, // +ve for buy, -ve for sell
+    quantity: { type: Number, required: true }, 
     price: { type: Number, required: true }, // Price per share
     totalCost: { type: Number, required: true }, // quantity * price
     transactionType: { type: String, enum: ['buy', 'sell'], required: true },
@@ -17,7 +17,7 @@ const portfolioSchema = new mongoose.Schema({
     symbol: { type: String, required: true },
     companyName: { type: String, required: true },
     quantity: { type: Number, required: true }, // Total shares owned
-    averagePrice: { type: Number, required: true }, // Adjusted when buying/selling
+    averagePrice: { type: Number, required: true }, 
 });
 
 // User Schema
